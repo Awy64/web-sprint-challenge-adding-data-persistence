@@ -48,11 +48,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain the difference between `Relational Databases` and `SQL`.
 
+relational db is data stored in tables in a way so they are connected in some form insted of crammed in one table or having repeat data. SQL is used to Query the db and return the requested data.
+
 2. Why do tables need a `primary key`?
 
-3. What is the name given to a table column that references the primary key on another table.
+ so each row is unique.
+
+3. What is the name given to a table column that references the primary key on another table. 
+
+forgein key
 
 4. What do we need in order to have a _many to many_ relationship between two tables.
+
+a branch table?? A table that connects there ids together by forgein id.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
