@@ -14,7 +14,7 @@ function findById(id){
   return db('resources').where({id})
 }
 
-function insert(project){
-  return db('resources').insert(project)
+function insert(resource){
+  return db('resources').insert(resource)
     .then(id => findById(id))
 }
